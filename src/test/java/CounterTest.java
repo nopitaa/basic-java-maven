@@ -7,7 +7,7 @@ public class CounterTest {
 	public void testReset() {
 		Counter testCounter = new Counter();
 		
-		for(int i = 0; i <10; i++) {
+		for(int i = 0; i <10; i+) {
 			testCounter.increment();
 		}
 		
