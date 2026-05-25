@@ -1,26 +1,24 @@
-
 public class Counter {
 
-	private int count;
-	
-	public Counter() {
-		this.reset();
-	}
-		
-	public void reset() {
-		count = 1;
-	}
-	
-	public void increment() {
-		count++;
-	}
-	
-	public void decrement() {
-		count--;
-	}
-	
-	public int getCount() {
-		return count;
-	}
-	
+    private int count;
+
+    // Constructor
+    public Counter(int count) {
+        this.count = count;
+    }
+
+    // Getter
+    public int getCount() {
+        return count;
+    }
+
+    // Menambah nilai
+    public void increaseBy(int value) {
+        count += value;
+    }
+
+    // Mengurangi nilai
+    public void decreaseBy(int value) {
+        count -= value;
+    }
 }
