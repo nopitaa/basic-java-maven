@@ -27,7 +27,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/nopiii/Basic-Java-Maven</url>
+            <url>https://maven.pkg.github.com/nopitaa/basic-java-maven</url>
         </repository>
     </distributionManagement>
 
