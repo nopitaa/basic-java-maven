@@ -6,7 +6,7 @@
 
     <groupId>com.nopiii</groupId>
     <artifactId>contoh-project</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.3.4</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
