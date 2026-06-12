@@ -12,13 +12,13 @@
     </dependency>
   </dependencies>
 
-  <distributionManagement>
-  <repository> 
-    <id>github</id> 
-    <name>Github Packages</name> 
-    <url>https://maven.pkg.github.com/nopiii/basic-java-maven/</url> 
-  </repository>
-  </distributionManagement>
+<distributionManagement>
+    <repository>
+        <id>github</id>
+        <name>GitHub Packages</name>
+        <url>https://maven.pkg.github.com/nopiii/basic-java-maven</url>
+    </repository>
+</distributionManagement>
     
     <properties>
       <maven.compiler.source>17</maven.compiler.source>
