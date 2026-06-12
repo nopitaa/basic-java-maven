@@ -12,6 +12,10 @@ on:
   pull_request:
     branches:
       - main
+    paths:
+      - "pom.xml"
+      - "src/**"
+      
   release:
     types:
       - created
