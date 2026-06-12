@@ -30,5 +30,6 @@
             <url>https://maven.pkg.github.com/nopitaa/basic-java-maven</url>
         </repository>
     </distributionManagement>
+         
 
 </project>
