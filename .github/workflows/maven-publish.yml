@@ -9,16 +9,25 @@
 name: Novita_Syahwa
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "pom.xml"
+      - "src/**"
+
   pull_request:
     branches:
       - main
     paths:
       - "pom.xml"
       - "src/**"
-      
+
   release:
     types:
       - created
+
+  workflow_dispatch:
 
 jobs:
   build:
@@ -43,7 +52,7 @@ jobs:
         run: mvn clean test
 
       - name: Publish to GitHub Packages Apache Maven
-        if: github.event_name == 'release'
+        if: github.event_name != 'pull_request'
         run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
